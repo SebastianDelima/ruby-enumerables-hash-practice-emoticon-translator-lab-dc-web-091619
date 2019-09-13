@@ -16,8 +16,9 @@ hash = load_library(file_path)
 new_hash = hash["get_emoticon"]
 new_hash.each do |english|
   if english
+ binding.pry
   end
-  binding.pry
+ 
 end
 end
 
