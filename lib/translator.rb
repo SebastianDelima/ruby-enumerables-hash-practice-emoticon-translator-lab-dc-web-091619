@@ -28,9 +28,9 @@ def get_english_meaning(file_path, emoticon)
 new_hash = hash["get_meaning"]
 new_hash.each do |japanese|
   binding.pry
-  if japanese[1] == emoticon
-    return japanese[0]
-   binding.pry
+  if japanese[0] == emoticon
+    return japanese[1]
+   
  end
  end
  return "sorry"
