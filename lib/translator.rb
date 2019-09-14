@@ -21,7 +21,7 @@ new_hash.each do |english|
     end
     # binding.pry
   end
-  return "sorry"
+  return "Sorry, that emoticon was not found"
  end
 
 
