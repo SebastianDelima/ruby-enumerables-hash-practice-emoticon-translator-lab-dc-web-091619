@@ -17,7 +17,7 @@ new_hash = hash["get_emoticon"]
 new_hash.each do |english|
   # binding.pry
   if english[0] == emoticon 
-    return english[0]
+    return english
     end
     # binding.pry
   end
