@@ -28,4 +28,5 @@ def get_english_meaning(file_path, emoticon)
 new_hash = hash["get_emoticon"]
 new_hash.each do |english|
    binding.pry
+ end
 end
