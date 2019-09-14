@@ -16,16 +16,13 @@ hash = load_library(file_path)
 new_hash = hash["get_emoticon"]
 new_hash.each do |english|
   if english == emoticon do
-   
-    return english
-   
-  else
+   return english
+    else
     return "Sorry"
-
+    end
   end
  end
-end
-end
+
 
 def get_english_meaning
   
