@@ -24,6 +24,8 @@ new_hash.each do |english|
 
 
 def get_english_meaning(file_path, emoticon)
- has load_library(file_path)
-  # binding.pry
+ hash = load_library(file_path)
+new_hash = hash["get_emoticon"]
+new_hash.each do |english|
+   binding.pry
 end
