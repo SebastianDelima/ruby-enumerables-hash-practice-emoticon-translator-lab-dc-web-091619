@@ -15,8 +15,9 @@ def get_japanese_emoticon(file_path, emoticon )
 hash = load_library(file_path)
 new_hash = hash["get_emoticon"]
 new_hash.each do |english|
+  binding.pry
   if english == emoticon 
-   return english
+    return english
     else
       message = "Sorry"
     return message
