@@ -22,7 +22,7 @@ new_hash.each do |english|
     end
   end
  end
-
+end
 
 def get_english_meaning
   
