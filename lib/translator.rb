@@ -18,7 +18,8 @@ new_hash.each do |english|
   if english == emoticon do
    return english
     else
-    return "Sorry"
+      message = "Sorry"
+    return message
     end
   end
  end
