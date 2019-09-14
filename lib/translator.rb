@@ -18,12 +18,10 @@ new_hash.each do |english|
   # binding.pry
   if english[0] == emoticon 
     return english
-    else
-      message = "Sorry"
-    return message
     end
     binding.pry
   end
+  return "sorry"
  end
 
 
