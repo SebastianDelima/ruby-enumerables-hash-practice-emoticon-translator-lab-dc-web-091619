@@ -33,5 +33,5 @@ new_hash.each do |japanese|
    
  end
  end
- return "sorry"
+ return "Sorry, that emotion was not found"
 end
