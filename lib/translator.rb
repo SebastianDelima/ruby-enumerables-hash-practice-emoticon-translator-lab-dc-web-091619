@@ -29,7 +29,7 @@ new_hash = hash["get_meaning"]
 new_hash.each do |japanese|
   if japanese[1] == emoticon
     return japanese[0]
-   binding.pry
+  # binding.pry
  end
  end
  return "sorry"
