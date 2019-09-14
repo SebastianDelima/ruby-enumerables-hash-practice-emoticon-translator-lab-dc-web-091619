@@ -23,7 +23,7 @@ new_hash.each do |english|
     return "Sorry"
 binding.pry
   end
- 
+ end
 end
 end
 
